@@ -1,0 +1,10 @@
+# Write a Python program that asks the user to enter their name age and CGPA then print the values and also print the data type of each value
+name=input("Enter your name :")
+age=int(input("Enter your age :"))
+cgpa=float(input("Enter your CGPA :"))
+print("Name :",name)
+print("Age :",age)
+print("CGPA :",cgpa)
+print("data type of name is :",type(name))
+print("data type of age is :",type(age))
+print("data type of cgpa is :",type(cgpa))
